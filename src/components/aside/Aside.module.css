@@ -1,0 +1,19 @@
+.aside{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    background-color: aqua;
+    width: 250px;
+    height: 100vh;
+    padding: 4rem;
+
+}
+
+
+.navSide{
+    display: grid;
+    gap: 1.5rem;
+}
+.links{
+    background-color: red;
+}
