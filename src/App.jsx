@@ -1,12 +1,12 @@
 import './App.css';
-import { Header } from './components/header/Header'
-import { Aside } from './components/aside/Aside'
+import { Header } from './components/header/Header';
+import { Main } from './components/main/Main'
 
 function App() {
   return (
     <>
       <Header />
-      {/* <Aside /> */}
+      <Main />
     </>
   );
 }

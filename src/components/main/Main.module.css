@@ -1,0 +1,39 @@
+.main{
+    height: calc(100vh - 8rem);
+    text-align: center;
+    width: 500px;
+    margin-inline: auto;
+    background-color: blue;
+}
+.score{
+    background-color: orange;
+    padding: 1rem;
+    font-size: 2rem;
+    width: 17rem;
+    margin-inline: auto;
+    border-radius: 30px;
+    margin-top: 1rem;
+}
+.start{
+    justify-content: space-between;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 50px;
+}
+
+@media (max-width: 500px){
+    .main{
+        width: 400px;
+    }
+}
+@media (max-width: 400px){
+    .main, .score{
+        width: 200px;
+    }
+}
+@media (max-width: 250px){
+    .main, .score{
+        width: 100%;
+    }
+}
+
